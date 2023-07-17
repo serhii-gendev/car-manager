@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Bubbles&display=swap');
+
+.vehicle-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    gap: 10px 20px;
+    padding: 2.9rem;
+    margin: 3rem;
+  }
+  
+  .vehicle-card {
+    flex: 0 0 25%;
+    flex-direction: wrap;
+    flex: wrap;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(244, 244, 235);
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .vehicle-edit {
+    margin-left: auto;
+    background-color: rgb(151, 160, 95);
+
+  }
+
+
+  .vehicle-delete {
+    margin-left: auto;
+    background-color: cadetBlue;
+  }
+
+  .vehicle-filter {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+  }
+
+  .vehicle-filter-title {
+    display: flex;
+    justify-content: center;
+  }
+
+  .vehicle-show-card {
+    flex: 0 0 25%;
+    flex-direction: wrap;
+    flex: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    background-color: rgb(244, 244, 235);
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .vehicle-form-container {
+    flex: 0 0 25%;
+    flex-direction: wrap;
+    flex: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    width: 80%;
+    background-color: rgb(244, 244, 235);
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .container--login {
+    flex: 0 0 25%;
+    flex-direction: wrap;
+    flex: wrap;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    background-color: rgb(244, 244, 235);
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  select {
+    width: 320px;
+    height: 30px;
+    font-family: 'Bebas Neue', cursive;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    border-radius: 10px;
+  }
+
+.container-search {
+  flex: 0 0 25%;
+  flex-direction: wrap;
+  flex: wrap;
+  align-items: center;
+  width: 45%;
+  justify-content: space-between;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  background-color: rgb(244, 244, 235);
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.search-bar {
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+  border-radius: 10px;
+  padding: .5rem;
+  
+}
+
+.form--login {
+  flex: 0 0 25%;
+  flex-direction: wrap;
+  flex: wrap;
+  align-items: center;
+  width: 90%;
+  justify-content: space-between;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.form-control {
+  width: 93%;
+}
+
